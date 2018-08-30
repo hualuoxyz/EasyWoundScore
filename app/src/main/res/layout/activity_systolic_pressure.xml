@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SystolicPressure">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "收缩压（mmHg）"
+        android:textColor="#FF0000"/>
+
+    <RadioGroup
+        android:id = "@+id/sp_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation = "vertical">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = ">89"
+            android:id = "@+id/sp_1"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "76～89"
+            android:id = "@+id/sp_2"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "50～75"
+            android:id = "@+id/sp_3"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "1～49"
+            android:id = "@+id/sp_4"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "0"
+            android:id = "@+id/sp_5"/>
+    </RadioGroup>
+
+    <Button
+        android:id = "@+id/sp_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "下一步"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:text = "@string/hp"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">简易战伤评分</string>
+    <string name="notice">通过简易的战伤计分可实现对战伤伤员进行伤势的初步判断。</string>
+    <string name="breath">呼吸次数10~29次/分钟评4分，大于29次/分钟评3分，6~9次/分钟评2分，1~5次/分钟评1分，0次/分钟评0分。</string>
+    <string name="hp">收缩压>89mmHg评4分，76～89mmHg评3分，50～75mmHg评2分，1～49mmHg评1分，0mmHg评0分。</string>
+    <string name="gcs">神志状况13～15分评4分，9～12分评3分，6～8分评2分，4～5分评1分，3分以下评0分。</string>
+    <string name="result">简易战伤计分=12分时，通常是轻伤；在10～11分时，大多是中等伤；6～9分时，则大多是重伤；少于5分时，主要是危重伤；在3分以下者抢救成活的机会非常小。</string>
+    <string name="eyesopen">在睁眼反应计分中，自动睁眼评4分，呼唤睁眼评3分，刺痛睁眼评2分，不睁眼评1分。</string>
+    <string name="talkreaction">在言语反应中，回答切题评5分，回答不切题评4分，答非所问评3分，只能发言评2分，不能言语评1分。</string>
+    <string name="sportreaction">在运动反应中，按吩咐动作评6分，刺痛能定位评5分，刺痛能躲避评4分，刺痛肢体能屈曲评3分，刺痛肢体能过伸评2分，无运动反应评1分。</string>
+</resources>

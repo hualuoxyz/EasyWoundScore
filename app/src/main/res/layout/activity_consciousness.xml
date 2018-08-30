@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Consciousness">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation = "vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "睁眼反应："
+            android:textColor="#FF0000"/>
+
+        <RadioGroup
+            android:id = "@+id/ep_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation = "vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "自动睁眼"
+                android:id = "@+id/ep_1"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "呼唤睁眼"
+                android:id = "@+id/ep_2"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "刺痛睁眼"
+                android:id = "@+id/ep_3"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "不睁眼"
+                android:id = "@+id/ep_4"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text = "@string/eyesopen"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "言语反应："
+            android:textColor="#FF0000"/>
+
+        <RadioGroup
+            android:id = "@+id/tr_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation = "vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "回答切题"
+                android:id = "@+id/tr_1"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "回答不切题"
+                android:id = "@+id/tr_2"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "答非所问"
+                android:id = "@+id/tr_3"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "只能发音"
+                android:id = "@+id/tr_4"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "不能言语"
+                android:id = "@+id/tr_5"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text = "@string/talkreaction"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "运动反应："
+            android:textColor="#FF0000"/>
+
+        <RadioGroup
+            android:id = "@+id/bm_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation = "vertical">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "按吩咐动作"
+                android:id = "@+id/bm_1"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "刺痛能定位"
+                android:id = "@+id/bm_2"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "刺痛能躲避"
+                android:id = "@+id/bm_3"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "刺痛肢体能屈曲"
+                android:id = "@+id/bm_4"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "刺痛肢体能过申伸"
+                android:id = "@+id/bm_5"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "无运动反应"
+                android:id = "@+id/bm_6"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text = "@string/sportreaction"/>
+
+        <Button
+            android:id = "@+id/jg_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "计算结果"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text = "@string/gcs"/>
+    </LinearLayout>
+</ScrollView>
